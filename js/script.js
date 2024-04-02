@@ -1,0 +1,1 @@
+function includeHTML(){var e,t,n,u,i;for(e=document.getElementsByTagName("*"),t=0;t<e.length;t++)(u=(n=e[t]).getAttribute("include-html"))&&((i=new XMLHttpRequest).open("GET",u,!1),i.send(),200==i.status?n.innerHTML=i.responseText:404==i.status&&(n.innerHTML="Page not found."),n.removeAttribute("include-html"))}includeHTML();
