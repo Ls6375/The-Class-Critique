@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The Class Critique</title>
 	<link rel="stylesheet" href="css/style.css">
 	<!-- FontAwesome CDN -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
 
 	<header include-html="common/header.html">
@@ -16,6 +20,93 @@
 
 	<main>
 		<!-- The main content section -->
+		<section class="row py-4 text-center">
+			<div class="col-12">
+				<h2 class="text-6xl fw-400 w-60 my-auto">
+					Advertising &amp; <br> Brand Partnerships
+				</h2>
+				<p class="fs-itallic w-60 my-auto text-lg">The Good Trade is the premier online destination for sustainable
+					lifestyle content, serving a highly engaged community via our website, newsletters, and cross-channel social
+					media presence. We love working with sustainability-minded brands that align with our audience’s interests and
+					values.</p>
+				<p>Tell us a bit about your brand and we’ll be in touch with our media kit! ✨</p>
+				<form action="#form-submit" class="w-80 my-auto justify-center text-left my-auto gap advertise-form ">
+					<div class="advertise-form-item span-2 ">
+						<h4 class="text-2xl form-label">Name *</h4>
+						<div class="row no-wrap gap">
+							<div class="col-6 p-0">
+								<input class="w-90 border-rounded form-input" type="text" id="first_name" name="first_name">
+								<label for="first_name" class="form-label-sm"> First Name </label>
+							</div>
+							<div class="col-6 p-0">
+								<input class="w-90 border-rounded form-input" type="text" id="last_name" name="last_name">
+								<label for="last_name" class="form-label-sm"> Last Name </label>
+							</div>
+						</div>
+					</div>
+
+					<div class="advertise-form-item span-2 ">
+						<label class="text-2xl form-label" for="company_name">Company Name *</label>
+						<input class="w-90 border-rounded form-input" type="text" id="company_name" name="company_name">
+					</div>
+
+					<div class="advertise-form-item span-2 ">
+						<label class="text-2xl form-label" for="website_URL">Website URL *</label>
+						<input class="w-90 border-rounded form-input" type="url" id="website_URL" name="website_URL">
+					</div>
+
+					<div class="advertise-form-item span-2">
+						<label class="text-2xl form-label" for="website_URL">Your Marketing Goals *</label>
+						<div class="my-2">
+							<input class="border-rounded" type="checkbox" id="introduce_company" name="marketing_goals[]"
+								value="Introduce my company to The Good Trade’s audience">
+							<label for="introduce_company">Introduce my company to The Good Trade’s audience</label>
+						</div>
+						<div class="my-2">
+							<input class="border-rounded" type="checkbox" id="increase_brand_visibility" name="marketing_goals[]"
+								value="Increase brand visibility">
+							<label for="increase_brand_visibility">Increase brand visibility</label>
+						</div>
+						<div class="my-2">
+							<input class="border-rounded" type="checkbox" id="generate_leads" name="marketing_goals[]"
+								value="Generate leads">
+							<label for="generate_leads">Generate leads</label>
+						</div>
+					</div>
+
+					<div class="advertise-form-item span-2">
+						<label class="text-2xl form-label" for="website_URL">Available Budget *</label>
+						<div class="my-2">
+								<input class="border-rounded" type="radio" id="budget_10k" name="budget" value="< $10K">
+								<label for="budget_10k">&lt; $10K</label>
+						</div>
+						<div class="my-2">
+								<input class="border-rounded" type="radio" id="budget_10k_20k" name="budget" value="$10K - $20K">
+								<label for="budget_10k_20k">$10K - $20K</label>
+						</div>
+						<div class="my-2">
+								<input class="border-rounded" type="radio" id="budget_20k_50k" name="budget" value="$20K - $50K">
+								<label for="budget_20k_50k">$20K - $50K</label>
+						</div>
+						<div class="my-2">
+							<input class="border-rounded" type="radio" id="budget_50k" name="budget" value="$50K">
+							<label for="budget_20k_50k">More than $50K</label>
+					</div>
+				</div>
+
+				
+				<div class="advertise-form-item span-2 ">
+					<label class="text-2xl form-label" for="anything_else">Is there anything else you would like to share about your company or goals?</label>
+					<input class="w-90 border-rounded form-input" type="text" id="anything_else" name="anything_else">
+				</div>
+
+					
+				<div class="advertise-form-item span-2 ">
+					<input type="submit" class="btn-outline text-2xl lora-400" >
+				</div>
+				</form>
+			</div>
+		</section>
 	</main>
 
 	<footer>
@@ -23,4 +114,5 @@
 	</footer>
 	<script src="js/script.js"></script>
 </body>
+
 </html>
