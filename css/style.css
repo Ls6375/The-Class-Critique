@@ -11,6 +11,8 @@ Color Guide
 ***************/
 :root {
   --primary-color: #575757;
+  --primary-color-rgb-value: 87, 87, 87;
+
   --secondary-color: #c4c4c4;
   --overlay: white;
   --button-border-color: #858383;
@@ -35,6 +37,7 @@ border: 1px solid #fff;
 *************************************************
 0. CSS Reset ------------------------ 
 1. Universal Styles -----------------
+1.1 Utility Classes -----------------
 2. Header & Nav Styles -------------- 
 3. Main Body Styles ----------------- 
 4. Sidebar Styles ------------------- 
@@ -43,6 +46,8 @@ border: 1px solid #fff;
 7. Comments & Form Styles ----------- 
 8. Generic Styles ------------------- 
 9. Animation Keyframes --------------
+
+
 
 *************************************************
 ************************************************/
@@ -56,17 +61,401 @@ border: 1px solid #fff;
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
+body{
+	margin: 0;
 }
+
 /*----------------------------------------------
 ------------------------------------------------
-1. Universal Styles
+1. Utility Classes
 ------------------------------------------------
 ----------------------------------------------*/
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Margin Classes */
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+.mt-5 { margin-top: 3rem; }
+
+.mr-0 { margin-right: 0; }
+.mr-1 { margin-right: 0.25rem; }
+.mr-2 { margin-right: 0.5rem; }
+.mr-3 { margin-right: 1rem; }
+.mr-4 { margin-right: 1.5rem; }
+.mr-5 { margin-right: 3rem; }
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-3 { margin-bottom: 1rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+.mb-5 { margin-bottom: 3rem; }
+
+.ml-0 { margin-left: 0; }
+.ml-1 { margin-left: 0.25rem; }
+.ml-2 { margin-left: 0.5rem; }
+.ml-3 { margin-left: 1rem; }
+.ml-4 { margin-left: 1.5rem; }
+.ml-5 { margin-left: 3rem; }
+
+.mx-0 { margin-left: 0; margin-right: 0; }
+.mx-1 { margin-left: 0.25rem; margin-right: 0.25rem; }
+.mx-2 { margin-left: 0.5rem; margin-right: 0.5rem; }
+.mx-3 { margin-left: 1rem; margin-right: 1rem; }
+.mx-4 { margin-left: 1.5rem; margin-right: 1.5rem; }
+.mx-5 { margin-left: 3rem; margin-right: 3rem; }
+
+.my-0 { margin-top: 0; margin-bottom: 0; }
+.my-1 { margin-top: 0.25rem; margin-bottom: 0.25rem; }
+.my-2 { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+.my-3 { margin-top: 1rem; margin-bottom: 1rem; }
+.my-4 { margin-top: 1.5rem; margin-bottom: 1.5rem; }
+.my-5 { margin-top: 3rem; margin-bottom: 3rem; }
+
+.my-auto{ margin-left: auto ; margin-right: auto ; }
+
+/* Padding Classes */
+.px-0 { padding-left: 0; padding-right: 0; }
+.px-1 { padding-left: 0.25rem; padding-right: 0.25rem; }
+.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+.px-3 { padding-left: 1rem; padding-right: 1rem; }
+.px-4 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.px-5 { padding-left: 3rem; padding-right: 3rem; }
+
+.pt-0 { padding-top: 0; }
+.pt-1 { padding-top: 0.25rem; }
+.pt-2 { padding-top: 0.5rem; }
+.pt-3 { padding-top: 1rem; }
+.pt-4 { padding-top: 1.5rem; }
+.pt-5 { padding-top: 3rem; }
+
+.pr-0 { padding-right: 0; }
+.pr-1 { padding-right: 0.25rem; }
+.pr-2 { padding-right: 0.5rem; }
+.pr-3 { padding-right: 1rem; }
+.pr-4 { padding-right: 1.5rem; }
+.pr-5 { padding-right: 3rem; }
+
+.pb-0 { padding-bottom: 0; }
+.pb-1 { padding-bottom: 0.25rem; }
+.pb-2 { padding-bottom: 0.5rem; }
+.pb-3 { padding-bottom: 1rem; }
+.pb-4 { padding-bottom: 1.5rem; }
+.pb-5 { padding-bottom: 3rem; }
+
+.pl-0 { padding-left: 0; }
+.pl-1 { padding-left: 0.25rem; }
+.pl-2 { padding-left: 0.5rem; }
+.pl-3 { padding-left: 1rem; }
+.pl-4 { padding-left: 1.5rem; }
+.pl-5 { padding-left: 3rem; }
+
+.py-0 { padding-top: 0; padding-bottom: 0; }
+.py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.py-3 { padding-top: 1rem; padding-bottom: 1rem; }
+.py-4 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.py-5 { padding-top: 3rem; padding-bottom: 3rem; }
+
+/* Flex box Responsive Classes */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.justify-end{
+	justify-content: end;
+}
+
+.gap{
+	gap: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"], .col {
+  padding: 15px;	
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+	.col { width: auto;}
+  .col-1 {flex: 8.33%;}
+  .col-2 {flex: 16.66%;}
+  .col-3 {flex: 25%;}
+  .col-4 {flex: 33.33%;}
+  .col-5 {flex: 41.66%;}
+  .col-6 {flex: 50%;}
+  .col-7 {flex: 58.33%;}
+  .col-8 {flex: 66.66%;}
+  .col-9 {flex: 75%;}
+  .col-10 {flex: 83.33%;}
+  .col-11 {flex: 91.66%;}
+  .col-12 {flex: 100%;}
+}
+
+/* Text Utility Classes  */
+.text-xs { font-size: 0.75rem; } /* Extra Small */
+.text-sm { font-size: 0.875rem; } /* Small */
+.text-base { font-size: 1rem; } /* Base */
+.text-lg { font-size: 1.125rem; } /* Large */
+.text-xl { font-size: 1.25rem; } /* Extra Large */
+.text-2xl { font-size: 1.5rem; } /* 2X Large */
+.text-3xl { font-size: 1.875rem; } /* 3X Large */
+.text-4xl { font-size: 2.25rem; } /* 4X Large */
+.text-5xl { font-size: 3rem; } /* 5X Large */
+.text-6xl { font-size: 3.75rem; } /* 6X Large */
+.text-7xl { font-size: 4.5rem; } /* 7X Large */
+
+/* Font weight Utility Classes  */
+.fw-100{ font-weight: 100;}
+.fw-200{ font-weight: 200;}
+.fw-300{ font-weight: 300;}
+.fw-400{ font-weight: 400;}
+.fw-500{ font-weight: 500;}
+.fw-600{ font-weight: 600;}
+.fw-700{ font-weight: 700;}
+.fw-800{ font-weight: 800;}
+.fw-900{ font-weight: 900;}
+
+.letter-spacing{
+	letter-spacing: 0.2rem;
+}
+
+
+
+.rajdhani-light {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rajdhani-regular {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rajdhani-semibold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.rajdhani-bold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pacifico-regular{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.lora-400 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora-500 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lora-600 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* Font Weight Utility Classes */
+.font-light { font-weight: 300; } /* Light */
+.font-normal { font-weight: 400; } /* Normal */
+.font-medium { font-weight: 500; } /* Medium */
+.font-semibold { font-weight: 600; } /* Semi-bold */
+.font-bold { font-weight: 700; } /* Bold */
+.font-extrabold { font-weight: 800; } /* Extra bold */
+.font-black { font-weight: 900; } /* Black */
+
+
+/* Responsive Width Utility Classes */
+
+/* Responsive Width Utility Classes - For Desktop Devices */
+@media only screen and (min-width: 768px) {
+	.w-100 { width: 100%; }
+	.w-90 { width: 90%; }
+	.w-80 { width: 80%; }
+	.w-70 { width: 70%; }
+	.w-60 { width: 60%; }
+	.w-50 { width: 50%; }
+	.w-33 { width: 33.33%; }
+	.w-25 { width: 25%; }
+	.w-20 { width: 20%; }
+	.w-10 { width: 10%; }
+}
+
+/*----------------------------------------------
+------------------------------------------------
+1. Universal Styles
+------------------------------------------------
+----------------------------------------------*/
+
+
+/* Default Styles for Paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Default Styles for Headings */
+h1 {
+  font-size: 2.25rem;
+	font-family: "Lora", serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+	font-family: "Lora", serif;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color) ;
+}
+
+/* Default Styles for Lists */
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+q{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Input Fields */
+.input {
+	color: var(--primary-color) ;
+  border: 1px solid var(--primary-color);
+  border-radius: 3.125rem;
+  background-color: transparent;
+  background-color: var(--primary-color);
+	font-weight: 400;
+	padding-left: 1rem;
+	background-color: transparent;
+}
+.input:focus {
+	color: var(--primary-color) ;
+  border: 1px solid var(--primary-color);
+  border-radius: 3.125rem;
+  background-color: transparent;
+  background-color: var(--primary-color);
+	font-weight: 400;
+	padding-left: 1rem;
+	background-color: transparent;
+}
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3.125rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Outline Button Styles */
+.btn-outline {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 3.125rem;
+  background-color: transparent;
+  color: var(--primary-color);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: rgba( var(--primary-color-rgb-value), 0.2);
+}
+
+
+
 
 /*----------------------------------------------
 ------------------------------------------------
@@ -559,3 +948,40 @@ a {
 		}
 	}
 /*[End] Responsive styles for mobile */ 
+
+/*----------------------------------------------
+------------------------------------------------
+Newsletter Page CSS
+------------------------------------------------
+----------------------------------------------*/
+.bg-color-e8e4d3{
+	background-color: #e8e4d3;
+}
+
+.bg-color-c7ac97{
+	background-color: #c7ac97;
+}
+
+.bg-image-pexels-arkhod{
+  background-image: 
+			linear-gradient(rgb(255 255 255 / 50%), 
+			rgb(255 255 255)), 
+			url(../images/pexels-arkhod.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logos-img{
+	max-width: 290px;
+    width: 100%;
+    max-height: 120px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.font-awesome{
+	width: 25px;
+	height: 25px;
+}
+

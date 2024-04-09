@@ -1,18 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The Class Critique</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- FontAwesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
 </head>
+
 <body>
 
 	<header include-html="common/header.html">
 	</header>
 
-	<main>
+	<main class="text-center">
 		<!-- The main content section -->
+		<section class="row bg-color-e8e4d3 py-4">
+			<div class="col-12">
+				<h2 class="text-5xl ">
+					The Daily Good
+				</h2>
+				<q class="text-4xl">I tell all my friends to pleaaasee subscribe</q>
+				<p class="w-80 my-auto ">A 30-second newsletter delivered to your inbox daily with soothing playlists,
+					sustainable recipes, inspiring articles, and more. Join 225,000 readers, for free.✨</p>
+				<form action="#form-submit" class="row justify-center  my-auto gap w-50 ">
+					<input class="col-8 input border-rounded" type="text" id="email" name="email" placeholder="Email address">
+					<button class="btn-outline  col" type="submit">Sign up</button>
+				</form>
+			</div>
+			<div class="form-wrapper">
+
+			</div>
+		</section>
+
+		<section class="row  py-5 bg-image-pexels-arkhod">
+			<div class="col-12">
+				<h2 class="text-4xl mb-5">More Newsletters from The Good Trade</h2>
+				<div class="row">
+					<div class="col-6">
+						<h2 class="text-6xl ">
+							The Weekly
+						</h2>
+						<p> Our top read articles of the week. Delivered in a weekly digest on Tuesdays.</p>
+						<form action="#form-submit" class="row justify-center  my-auto gap w-50 ">
+							<input class="col-12 input border-rounded" type="text" name="email" placeholder="Email address">
+							<button class="btn-outline  col-12" type="submit">Sign up</button>
+						</form>
+					</div>
+					<div class="col-6">
+						<h2 class="text-6xl ">
+							Good Digs
+						</h2>
+						<p> Tips for sustainable design, decor, DIYS, and more! Delivered in a digest every other Thursday.</p>
+						<form action="#form-submit" class="row justify-center  my-auto gap w-50 ">
+							<input class="col-12 input border-rounded" type="text" name="email" placeholder="Email address">
+							<button class="btn-outline  col-12" type="submit">Sign up</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-2 bg-color-c7ac97">
+			<h2 class="rajdhani-medium text-lg letter-spacing">FEATURED IN</h2>
+			<div class="row my-auto w-60">
+				<div class="col-4"><img class="logos-img" src="images/fastcompany.webp" alt="logo"></div>
+				<div class="col-4"><img class="logos-img" src="images/forbes.webp" alt="logo"></div>
+				<div class="col-4"><img class="logos-img" src="images/Wikipedia_name_logo.webp" alt="logo"></div>
+			</div>
+			<div class="row  my-auto mb-5">
+				<div class="col-3 "><img class="logos-img" src="images/Bustle_logo_2020.webp" alt="logo"></div>
+				<div class="col-3 "><img class="logos-img" src="images/The-Guardian-logo.webp" alt="logo"></div>
+				<div class="col-3 "><img class="logos-img" src="images/New_York_Magazine_Logo.webp" alt="logo"></div>
+				<div class="col-3 	"><img class="logos-img" src="images/Fortune_logo.webp" alt="logo"></div>
+			</div>
+		</section>
 	</main>
 
 	<footer>
@@ -20,4 +91,5 @@
 	</footer>
 	<script src="js/script.js"></script>
 </body>
+
 </html>

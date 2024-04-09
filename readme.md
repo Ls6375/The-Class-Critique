@@ -40,3 +40,17 @@
 ## slide-2-fashion.jpg
 
 ### https://www.freepik.com/free-photo/cute-girl-with-shopping-bag-city_4576865.htm#from_view=detail_alsolike
+
+########################################################
+# NEWSLETTER PAGE REFERECNES
+########################################################
+Arkhod. (2021, August 24). Women holding hands on a field · Free stock photo. Pexels. https://www.pexels.com/photo/women-holding-hands-on-a-field-9294832/
+
+## LOGOS SECTION 
+Jie, & Jie. (2018, December 3). FastCompany logo. DataMesh | Digital Transformation With Mixed Reality and Digital Twin. https://datamesh.com/datamesh-fastcompany-best-design/
+Ewing, K. (2021, September 1). Forbes logo. TerraSlate Inc. https://terraslatepaper.com/en-ca/blogs/news/forbes-consumer-safety-emerging-as-key-e-commerce-trend-post-pandemic
+Wikipedia contributors. (n.d.). File:Wikipedia-word.png - Wikipedia. https://en.wikipedia.org/wiki/File:Wikipedia-word.png
+Wikipedia contributors. (2020, July 8). File:Bustle logo 2020.svg - Wikipedia. https://en.m.wikipedia.org/wiki/File:Bustle_logo_2020.svg
+Wikipedia contributors. (2018, January 14). File:The Guardian 2018.svg - Wikipedia. https://en.m.wikipedia.org/wiki/File:The_Guardian_2018.svg
+Quintana, G. (2024, January 10). New York Magazine Logo - The Cut. Sunday Citizen. https://sundaycitizen.co/blogs/press/new-york-magazine-the-cut
+Post Carbon Institute. (2022, January 25). Fortune logo. https://www.postcarbon.org/press/richard-heinberg-interviewed-for-fortune-magazine/
