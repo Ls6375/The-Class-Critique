@@ -568,6 +568,20 @@ main {
 6. Footer Styles
 ------------------------------------------------
 ----------------------------------------------*/
+footer{
+	background-color:  #e9e4d3;
+}
+
+footer nav {
+	flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile: */
+	.justify-center-in-mobile{
+		justify-content: center !important;
+	}
+}
 
 /*----------------------------------------------
 ------------------------------------------------
