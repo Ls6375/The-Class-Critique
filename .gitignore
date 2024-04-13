@@ -1,0 +1,5 @@
+# Ignore .ds files
+*.ds
+
+# Ignore .vscode directory
+.vscode/
