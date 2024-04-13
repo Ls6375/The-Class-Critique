@@ -74,6 +74,11 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Text Color  */
+.text-danger{
+	color: #ff0000;
+}
+	
 /* Margin Classes */
 .mt-0 { margin-top: 0; }
 .mt-1 { margin-top: 0.25rem; }
@@ -242,7 +247,7 @@ body {
 }
 
 
-
+/* Font Family Classes Utility Classes  */
 .rajdhani-light {
   font-family: "Rajdhani", sans-serif;
   font-weight: 300;
@@ -279,27 +284,26 @@ body {
   font-style: normal;
 }
 
-
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 700 */
 
 .lora-400 {
   font-family: "Lora", serif;
-  font-optical-sizing: auto;
+
   font-weight: 400;
   font-style: normal;
 }
 
 .lora-500 {
   font-family: "Lora", serif;
-  font-optical-sizing: auto;
+
   font-weight: 500;
   font-style: normal;
 }
 
 .lora-600 {
   font-family: "Lora", serif;
-  font-optical-sizing: auto;
+
   font-weight: 600;
   font-style: normal;
 }
@@ -990,7 +994,7 @@ Newsletter Page CSS
 	background-repeat: no-repeat;
 }
 
-.logos-img{
+.newsletter-logos-img{
 	max-width: 290px;
     width: 100%;
     max-height: 120px;
@@ -1051,6 +1055,7 @@ Advertise Page CSS
 	.advertise-form .row{
 		flex-direction: column;
 	}
+	
 	
 }
 
