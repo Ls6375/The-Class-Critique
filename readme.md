@@ -54,3 +54,19 @@ Wikipedia contributors. (2020, July 8). File:Bustle logo 2020.svg - Wikipedia. h
 Wikipedia contributors. (2018, January 14). File:The Guardian 2018.svg - Wikipedia. https://en.m.wikipedia.org/wiki/File:The_Guardian_2018.svg
 Quintana, G. (2024, January 10). New York Magazine Logo - The Cut. Sunday Citizen. https://sundaycitizen.co/blogs/press/new-york-magazine-the-cut
 Post Carbon Institute. (2022, January 25). Fortune logo. https://www.postcarbon.org/press/richard-heinberg-interviewed-for-fortune-magazine/
+
+########################################################
+# FEATURE DETAILED PAGE REFERECNES
+########################################################
+
+## maake up girl video
+
+## https://www.freepik.com/free-video/woman-bathroom_1603174/16:9#fromView=search&page=1&position=15&uuid=b94c0afa-5554-4fd7-acea-5d9507722174
+
+## mascara.jpg
+
+## https://www.freepik.com/free-photo/mascara-bottle-cosmetics_78904041.htm#fromView=search&page=1&position=6&uuid=9c341f53-05a7-4b9e-9f82-ef15d447fac2
+
+## skin-serum.jpg
+
+## https://www.freepik.com/free-photo/arrangement-with-cosmetic-product_8269723.htm#fromView=search&page=1&position=22&uuid=460f10ce-9e19-4275-8ee8-b6d27ddd177f

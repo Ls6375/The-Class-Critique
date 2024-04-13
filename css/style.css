@@ -1053,3 +1053,74 @@ Advertise Page CSS
 	}
 	
 }
+
+
+
+
+/*----------------------------------------------
+------------------------------------------------
+Feature Detailed Page CSS
+------------------------------------------------
+----------------------------------------------*/
+
+/* Video container */
+.feat-video-container {
+	position: relative;
+	padding-bottom: 31.25%; /* Adjusted aspect ratio for smaller size */
+	overflow: hidden;
+	width: 80%; /* Adjusted width */
+	max-width: 600px; /* Set your desired max-width */
+	margin: 0 auto; /* Center the container */
+}
+
+/* Style for video */
+.feat-video-container video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Section style */
+.feat-section-container {
+	text-align: center;
+	padding: 20px;
+}
+
+/* Style for image wrapper */
+.feat-image-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* Style for image containers */
+.feat-image-container {
+	margin: 10px 10px;
+}
+
+/* To style images */
+.feat-image-wrapper img {
+	max-width: 500px;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 25px;
+}
+
+/* Style for the table */
+.feat-table {
+	width: 90%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-left: auto; 
+  margin-right: auto;
+}
+
+.feat-table th,
+.feat-table td {
+	border: 1px solid #ffffff;
+	padding: 8px;
+	text-align: center;
+}
