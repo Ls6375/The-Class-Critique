@@ -53,3 +53,11 @@ const swiper = new Swiper(".swiper", {
 		},
 	},
 });
+
+
+// For Feature Detailed Page
+
+document.addEventListener("DOMContentLoaded", function() {
+  var video = document.getElementById("feat-video");
+  video.play();
+});
