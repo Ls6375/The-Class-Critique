@@ -9,6 +9,9 @@
   <!-- FontAwesome CDN -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -43,10 +46,11 @@
 					inspiration.</span>
 			</div>
 			<div class="form-wrapper">
-				<form action="#form-submit">
-					<input type="text" id="email" name="email" placeholder="Email address">
-					<button type="submit">Sign up</button>
+				<form action="#form-submit" class="row justify-center  my-auto gap w-50 ">
+					<input class="col-8 input border-rounded" type="text" id="email" name="email" placeholder="Email address">
+					<button class="btn-outline col" type="submit">Submit</button>
 				</form>
+				
 			</div>
 		</section>
 		<section class="home-trand-container">
@@ -184,9 +188,10 @@
 	<footer>
 		<!-- The footer section -->
 	</footer>
+	
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	
 	<script src="js/script.js"></script>
-
 </body>
 
 </html>

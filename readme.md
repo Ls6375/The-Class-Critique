@@ -33,13 +33,33 @@
 
 ### https://www.freepik.com/search?ai=only&format=search&last_filter=tool&last_value=midjourney&orientation=landscape&query=Decor+interior&selection=1&tool=midjourney&type=photo
 
-## slide-1-beauty.jpg
+## slide-1-health.jpg
 
-### https://www.freepik.com/free-photo/beauty-close-up-attractive-woman-looking-mirror-using-brush-apply-make-up-smiling-pleased-camera-standing-against-blue-background_18346247.htm#fromView=search&page=1&position=3&uuid=539160ef-84bc-464b-a054-4a381745e16c
+### https://www.freepik.com/free-photo/older-couple-practicing-yoga-outdoors_10830474.htm#fromView=search&page=1&position=19&uuid=f4a05b87-388a-4afb-957f-8d38c7a73247
 
-## slide-2-fashion.jpg
+## slide-3 -fashion.jpg
 
-### https://www.freepik.com/free-photo/cute-girl-with-shopping-bag-city_4576865.htm#from_view=detail_alsolike
+### https://www.freepik.com/free-photo/charming-woman-with-purchase-bag_1408874.htm#fromView=search&page=1&position=5&uuid=17fd6ff4-9b2e-4198-89e8-d71bf2038d73
+
+## slide-4-fitness.jpg
+
+### https://www.freepik.com/free-photo/portrait-adult-male-getting-ready-exercise_7939952.htm#fromView=search&page=1&position=24&uuid=3d497c59-d2cb-49f8-a7f1-8c6a5a6c8f5d
+
+## slide-5-fitness.jpg
+
+### https://www.freepik.com/free-photo/fit-young-woman-ready-training_6279322.htm#fromView=search&page=1&position=0&uuid=17fd6ff4-9b2e-4198-89e8-d71bf2038d73?log-in=google
+
+## slide-7-fitness.jpg
+
+### https://www.freepik.com/free-photo/young-woman-suffering-from-headache_4856734.htm#fromView=search&page=1&position=46&uuid=0bd19a39-9416-40e8-a218-5b2b1461a099
+
+## slide-8-fitness.jpg
+
+### https://www.freepik.com/free-photo/full-shot-woman-meditating-couch_13757498.htm#fromView=search&page=1&position=37&uuid=0bd19a39-9416-40e8-a218-5b2b1461a099
+
+## slide-1-food.jpg
+
+### https://www.freepik.com/free-photo/smiling-young-man-sitting-table-with-ripe-fresh-vegetables-fruits_2640081.htm#fromView=search&page=1&position=2&uuid=11468504-13b3-4789-943d-fb880be6fa6c
 
 ########################################################
 # NEWSLETTER PAGE REFERECNES

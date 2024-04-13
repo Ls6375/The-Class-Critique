@@ -672,11 +672,12 @@ a {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		padding: 10px 10px 10px 10px;
 	}
 	
 	.home-product-card img {
 		height: 550px;
-		margin: 10px 10px 10px 10px;
+		/* margin: 10px 10px 10px 10px; */
 	}
 	
 	.img-container img {
@@ -745,28 +746,6 @@ a {
 		justify-content: center;
 		gap: 20px;
 		width: 100%;
-	}
-	
-	.home-form-container .form-wrapper input[type="text"] {
-		padding: 12px 20px;
-		box-sizing: border-box;
-		border: 2px solid var(--input-border-color);
-		border-radius: 30px;
-		width: 400px;
-		background-color: transparent;
-	}
-	
-	.home-form-container .form-wrapper button {
-		background-color: transparent;
-		color: var(--primary-color);
-		padding: 12px 20px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;
-		font-size: 16px;
-		cursor: pointer;
-		border-radius: 30px;
-		border: 2px solid var(--button-border-color);
 	}
   
 /*[End] Form container section */
@@ -917,6 +896,13 @@ a {
 			height: 100%;
 			width: 100%; /* Adjust height as needed */
 		}
+
+		.home-form-container::before {
+			z-index: -1;
+			left: -38px;
+			right: 0px;
+			width: 100vw;
+		}
 	}
 /*[End] Responsive styles for desktops */  
 
@@ -940,7 +926,7 @@ a {
 			width: 300px;
 		}
 		
-		.home-form-container .form-wrapper button {
+		.home-form-container .form-wrapper button {	
 			margin-top: 20px;
 			width: 300px;
 		}
