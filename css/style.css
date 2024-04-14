@@ -137,7 +137,7 @@ body {
 .my-4 { margin-top: 1.5rem; margin-bottom: 1.5rem; }
 .my-5 { margin-top: 3rem; margin-bottom: 3rem; }
 
-.my-auto{ margin-left: auto ; margin-right: auto ; }
+.my-auto{ margin-left: auto !important ; margin-right: auto !important; }
 .ml-auto{  margin-left: auto ; }
 
 /* Padding Classes */
