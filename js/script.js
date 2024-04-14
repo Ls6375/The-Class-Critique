@@ -1,8 +1,8 @@
 $(document).ready(function () {
   $(".home-form-container .btn-outline").click(function () {
     Swal.fire({
-      title: "Success!",
-      text: "Your action has been processed.",
+      title: "Thank You!",
+      text: "Welcome to our community. Expect exclusive content soon!",
       icon: "success",
       timer: 20000, // 20 seconds
       timerProgressBar: true,
