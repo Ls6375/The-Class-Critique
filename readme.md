@@ -59,9 +59,9 @@ Post Carbon Institute. (2022, January 25). Fortune logo. https://www.postcarbon.
 # FEATURE DETAILED PAGE REFERECNES
 ########################################################
 
-## maake up girl video
+## Girl smiling at the camera while walking in the street
 
-## https://www.freepik.com/free-video/woman-bathroom_1603174/16:9#fromView=search&page=1&position=15&uuid=b94c0afa-5554-4fd7-acea-5d9507722174
+## https://www.freepik.com/free-video/young-girl-smiling-camera-while-walking-street_2825607#fromView=search&page=1&position=1&uuid=081598ca-44a9-4334-ac63-337cd44479db 
 
 ## mascara.jpg
 
