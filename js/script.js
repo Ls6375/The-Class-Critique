@@ -54,9 +54,3 @@ if (typeof Swiper !== "undefined") {
   });
 }
 
-// For Feature Detailed Page
-
-document.addEventListener("DOMContentLoaded", function () {
-  var video = document.getElementById("feat-video");
-  video.play();
-});
