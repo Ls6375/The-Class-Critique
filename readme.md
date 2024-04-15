@@ -5,6 +5,7 @@
 ## https://www.freepik.com/free-photo/make-up-artist-getting-model-ready-photoshootin_23440384.htm#query=beauty%20makeup&position=6&from_view=keyword&track=ais&uuid=7665a27c-bd13-4135-b365-c3ffe9d14ba8
 
 ## Hrishikesh
+
 ## Ajit
 
 # Home images
@@ -62,11 +63,14 @@
 ### https://www.freepik.com/free-photo/smiling-young-man-sitting-table-with-ripe-fresh-vegetables-fruits_2640081.htm#fromView=search&page=1&position=2&uuid=11468504-13b3-4789-943d-fb880be6fa6c
 
 ########################################################
+
 # NEWSLETTER PAGE REFERECNES
+
 ########################################################
 Arkhod. (2021, August 24). Women holding hands on a field · Free stock photo. Pexels. https://www.pexels.com/photo/women-holding-hands-on-a-field-9294832/
 
-## LOGOS SECTION 
+## LOGOS SECTION
+
 Jie, & Jie. (2018, December 3). FastCompany logo. DataMesh | Digital Transformation With Mixed Reality and Digital Twin. https://datamesh.com/datamesh-fastcompany-best-design/
 Ewing, K. (2021, September 1). Forbes logo. TerraSlate Inc. https://terraslatepaper.com/en-ca/blogs/news/forbes-consumer-safety-emerging-as-key-e-commerce-trend-post-pandemic
 Wikipedia contributors. (n.d.). File:Wikipedia-word.png - Wikipedia. https://en.wikipedia.org/wiki/File:Wikipedia-word.png
@@ -76,17 +80,19 @@ Quintana, G. (2024, January 10). New York Magazine Logo - The Cut. Sunday Citize
 Post Carbon Institute. (2022, January 25). Fortune logo. https://www.postcarbon.org/press/richard-heinberg-interviewed-for-fortune-magazine/
 
 ########################################################
+
 # FEATURE DETAILED PAGE REFERECNES
+
 ########################################################
 
 ## Girl smiling at the camera while walking in the street
 
-## https://www.freepik.com/free-video/young-girl-smiling-camera-while-walking-street_2825607#fromView=search&page=1&position=1&uuid=081598ca-44a9-4334-ac63-337cd44479db 
+## https://www.freepik.com/free-video/young-girl-smiling-camera-while-walking-street_2825607#fromView=search&page=1&position=1&uuid=081598ca-44a9-4334-ac63-337cd44479db
 
-## mascara.jpg
+## fabric.jpg
 
-## https://www.freepik.com/free-photo/mascara-bottle-cosmetics_78904041.htm#fromView=search&page=1&position=6&uuid=9c341f53-05a7-4b9e-9f82-ef15d447fac2
+## https://fabricwholesaledirect.com/en-ca/blogs/sewing-diy-tutorials/a-brief-history-of-fabric-and-textiles
 
-## skin-serum.jpg
+## jeans.jpg
 
-## https://www.freepik.com/free-photo/arrangement-with-cosmetic-product_8269723.htm#fromView=search&page=1&position=22&uuid=460f10ce-9e19-4275-8ee8-b6d27ddd177f
+## https://www.bbc.com/news/business-37523552

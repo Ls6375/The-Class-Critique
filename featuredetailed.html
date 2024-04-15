@@ -33,39 +33,27 @@
             width="100%"
             height="auto"
             id="feat-video">
-            <source src="videos/Feat-cover.mp4" type="video/mp4" />
+            <source src="videos/Feat-cover.mp4" type="video/mp4" alt="GirlWalks">
             Your browser does not support the video tag.
           </video>
         </div>
-        <section class="feat-section-container">
-          <p class="feat-font-small-size">The editors endorse products we’ve personally researched, tested, and genuinely love</p>
+        <div class="feat-div-container">
+          <p class="feat-font-small-size">The editors endorse products we've personally researched, tested, and genuinely love.</p>
           <p class="fs-itallic w-60 my-auto text-lg">
-            When we think of California, we envision romantic, breezy, and stylish clothing that reflects the laid-back yet chic lifestyle of the West Coast. The summers here feel endless, drenched in a soft, golden glow, perfect for strolling along the coastline or enjoying cocktails at a rooftop bar.
-
-            Discover these California clothing brands that embody the true spirit of West Coast living with an Italian-inspired twist. Not only do they offer fashionable attire, but they also prioritize sustainability and fair working conditions, using recycled or deadstock fabric to create their apparel.</p>
-        </section>
-
+            Imagine someone exuding effortless style in a snug hoodie. The relaxed silhouette and soft fabric lend an air of comfort, while the minimalist design adds a touch of understated elegance. Paired with versatile bottoms, it's a timeless ensemble suitable for various occasions, from casual outings to cozy nights in.</p>
+        </div>
+</section>
         <!-- New table section -->
         <section class="feat-section-container">
-          <h3 class="text-6xl fw-400 w-60 my-auto">Lets Compare</h3>
-          <ul>
-            <li>Italian-style casual clothing often embodies a sense of effortless elegance, with flowing silhouettes and lightweight fabrics that are perfect for the California climate.</li>
-          </ul>
-          <ul>
-            <li>Italian-style casual clothing often embodies a sense of effortless elegance, with flowing silhouettes and lightweight fabrics that are perfect for the California climate.</li>
-          </ul>
-          <ul>
-            <li>Italian-style casual clothing often embodies a sense of effortless elegance, with flowing silhouettes and lightweight fabrics that are perfect for the California climate.</li>
-          </ul>
-          
+          <h3 class="text-6xl fw-400 w-60 my-auto">Lets Compare</h3>  
           <table class="feat-table">
             <thead>
               <tr>
-                <th>Pros</th>
-                <th>Cons</th>
+                <th class="rajdhani-medium text-lg letter-spacing">Pros</th>
+                <th class="rajdhani-medium text-lg letter-spacing">Cons</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="rajdhani-medium text-lg letter-spacing">
               <tr>
                 <td>
                   Italian-style casual clothing often embodies a sense of effortless elegance, with flowing silhouettes and lightweight fabrics that are perfect for the California climate.</td>
@@ -87,23 +75,21 @@
             </tbody>
           </table>
         </section>
-      </section>
-
-			<!--More info section-->
-
-        <section class="feat-section-container">
+        <div class="feat-trendchart-container"><h3 class="text-6xl fw-400 w-60 my-auto">The Trend Cycle </h3><canvas id="feat-trendChart"></canvas></div>
+      </div>
+        <section class="feat-moreinfo-container">
           <h2 class="text-6xl fw-400 w-60 my-auto">More Info</h2>
           <div class="feat-image-wrapper">
             <div class="feat-image-container">
-              <img src="images/Feat-fabric.jpg" alt="fabric" />
-							<h4>Discovering Eco-Friendly Textiles and Materials: Essential Insights</h4>
+              <img class="feat-image hover-effect" src="images/Feat-fabric.jpg" alt="Fabric">
+							<span class="home-card-title mt-2">Discovering Eco-Friendly Textiles and Materials: Essential Insights</span>
               <p>
                 With clothing being an integral part of everyday life, it's essential to delve into the rich history of clothing production and the evolution of textiles.
               </p>
             </div>
             <div class="feat-image-container">
-              <img src="images/Feat-Jeans.jpg" alt="jeans" />
-							<h4>Discover Premium Denim: French Brands Crafting High-Quality Jeans</h4>
+              <img class="feat-image hover-effect" src="images/Feat-Jeans.jpg" alt="Jeans">
+							<span class="home-card-title mt-2">Discover Premium Denim: French Brands Crafting High-Quality Jeans</span>
               <p>Denim is a wardrobe staple globally, prized for its simplicity and durability. Yet, its production often hides exploitative labor and environmental harm.</p>
             </div>
           </div>
@@ -115,6 +101,7 @@
 
       <!-- The footer section -->
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
