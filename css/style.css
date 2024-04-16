@@ -860,7 +860,7 @@ header nav ul li a.active {
   border-radius: 5px;
 }
 
-/* Apply the animation to nav links */
+/* Apply the animation */
 header nav ul li a:hover {
   text-decoration: underline;
   animation: underline 200ms ease-in forwards;
