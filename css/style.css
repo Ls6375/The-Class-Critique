@@ -868,6 +868,14 @@ q {
   border-radius: 25px;
 }
 
+.border-rounded{
+  border-radius: 2.125rem;
+}
+
+
+.add-shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*----------------------------------------------
 ------------------------------------------------
 2. Header & Nav Styles
@@ -1271,6 +1279,10 @@ a {
   color: var(--primary-color);
 }
 
+#feat-video{
+	/* width: 100%; */
+	height :auto ;
+}
 /*[End] Features container section */
 
 /*[Start] Summary container section */
@@ -1451,23 +1463,23 @@ Feature Detailed Page CSS
 
 /* Video container */
 .feat-video-container {
-  position: relative;
-  padding-bottom: 31.25%;
-  overflow: hidden;
+  /* position: relative; */
+  /* padding-bottom: 31.25%; */
+  /* overflow: hidden;
   width: 80%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 /* Style for video */
 .feat-video-container video {
-  border-radius: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  /* border-radius: 20px; */
+  /* position: absolute; */
+  /* top: 0; */	
+  /* left: 0; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* object-fit: cover; */
 }
 
 .feat-video {
@@ -1563,6 +1575,16 @@ Feature Detailed Page CSS
     margin-left: 20px;
     margin-right: 20px;
   }
+	.feat-image-wrapper {
+		display: block;
+	}
+
+	#feat-trendChart {
+		margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+	
 
   .feat-image-wrapper img {
     max-width: 100%;
@@ -1638,3 +1660,9 @@ Blog Page
     text-align: center;
   }
 }
+
+.blog-shadow{
+	box-shadow: 0px -25px 11px -31px rgba(50, 45, 45, 0.64);
+	background-color: rgba(var(--primary-color-rgb-value), 0.1);
+}
+

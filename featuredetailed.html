@@ -23,21 +23,22 @@
     <main>
       <!-- The main content section -->
       <section class="row py-4 text-center">
-        <h2 class="text-6xl fw-400 w-60 my-auto"> Featured From Fashion</h2>
-        <div class="feat-video-container">
+				<div class="col-12">
+					<h2 class="text-6xl fw-400 w-60 my-auto mt-0"> Featured From Fashion</h2>
+				</div>
+        <div class="feat-video-container col-8 ">
           <video
             autoplay
             loop
             muted
-            preload="auto"
-            width="100%"
-            height="auto"
+            preload="auto" 
+						class=" w-80 mw-80 border-rounded  add-shadow"
             id="feat-video">
             <source src="videos/Feat-cover.mp4" type="video/mp4" alt="GirlWalks">
             Your browser does not support the video tag.
           </video>
         </div>
-        <div class="feat-div-container">
+        <div class="feat-div-container mx-4 ">
           <p class="feat-font-small-size">The editors endorse products we've personally researched, tested, and genuinely love.</p>
           <p class="fs-itallic w-60 my-auto text-lg">
             Imagine someone exuding effortless style in a snug hoodie. The relaxed silhouette and soft fabric lend an air of comfort, while the minimalist design adds a touch of understated elegance. Paired with versatile bottoms, it's a timeless ensemble suitable for various occasions, from casual outings to cozy nights in.</p>
@@ -76,7 +77,6 @@
           </table>
         </section>
         <div class="feat-trendchart-container"><h3 class="text-6xl fw-400 w-60 my-auto">The Trend Cycle </h3><canvas id="feat-trendChart"></canvas></div>
-      </div>
         <section class="feat-moreinfo-container">
           <h2 class="text-6xl fw-400 w-60 my-auto">More Info</h2>
           <div class="feat-image-wrapper">
@@ -94,7 +94,6 @@
             </div>
           </div>
         </section>
-    </section>
     </main>
 
     	<footer include-html="common/footer.html">
