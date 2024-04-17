@@ -881,7 +881,6 @@ q {
 2. Header & Nav Styles
 ------------------------------------------------
 ----------------------------------------------*/
-
 header nav {
   display: flex;
   justify-content: space-evenly;
@@ -920,6 +919,11 @@ header nav .logo {
 header nav .logo img {
   margin: auto;
   display: block;
+}
+
+.logo{
+	padding: 10px ;
+	max-width: 250px;
 }
 
 /* Mobile view Responsive layout */
