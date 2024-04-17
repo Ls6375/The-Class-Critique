@@ -1673,3 +1673,6 @@ Blog Page
 	background-color: rgba(var(--primary-color-rgb-value), 0.1);
 }
 
+.li-heading {
+  list-style: none;
+}
