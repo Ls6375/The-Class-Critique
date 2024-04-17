@@ -8,6 +8,8 @@
 
 ## Ajit
 
+# “Commons Generic Color Fill Icon.” Freepik, 2023, www.freepik.com/icon/commons_10074290#fromView=search&page=1&position=13&uuid=f7a3d4e1-2ebf-4a25-9c27-80ac0e755093. Accessed 17 Apr. 2024.
+
 # Home images
 
 ## young-beautiful-blonde-girl-practicing-yoga-outside-sunrise.jpg
