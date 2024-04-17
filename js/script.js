@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".home-form-container .btn-outline").click(function () {
+  $(".home-form-container .btn-outline, form-submit-btn").click(function () {
     Swal.fire({
       title: "Thank You!",
       text: "Welcome to our community. Expect exclusive content soon!",
@@ -11,6 +11,24 @@ $(document).ready(function () {
     $("#email").val("");
   });
 });
+
+$(document).ready(function () {
+  $('.form-submit-btn').click(function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Show the SweetAlert2 popup
+    Swal.fire({
+      title: "Thank You!",
+      text: "Welcome to our community. Expect exclusive content soon!",
+      icon: "success",
+      timer: 20000, // 20 seconds
+      timerProgressBar: true,
+    });
+		$(this).closest('form').trigger('reset');
+  });
+});
+
+
 
 function includeHTML() {
   var e, t, n, u, i;
