@@ -456,10 +456,13 @@ body {
   text-decoration: underline;
 }
 
-/* Text decoration Classes  */
-.text-underline {
-  text-decoration: underline;
+.text-decoration-none{
+	text-decoration: none !important;
 }
+/* Text decoration Classes  */
+/* .text-underline {
+  text-decoration: underline;
+} */
 
 /* Text Utility Classes  */
 .text-xs {
